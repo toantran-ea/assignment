@@ -1,0 +1,12 @@
+ext {
+    // Android
+    min_sdk = 21
+    target_sdk = 28
+    compile_sdk = 28
+
+    rxjava = '2.1.14'
+    rxkotlin = '2.2.0'
+    rxandroid = '2.1.1'
+    okhttp = '3.10.0'
+    retrofit = '2.5.0'
+}
