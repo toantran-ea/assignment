@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
 
-    def baseUrl = System.getenv("BASE_URL")
+    def baseUrl = "\"${System.env.BASE_URL}\""
     if (baseUrl == null) {
         Properties properties = new Properties()
         properties.load(project.rootProject.file('local.properties').newDataInputStream())
